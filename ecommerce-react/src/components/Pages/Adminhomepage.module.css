@@ -1,0 +1,34 @@
+.btn {
+    border-radius: 5px;
+    border-style:solid;
+    margin-left: 10px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+.btn button:hover {
+    background-color: transparent;
+    color: wheat;
+  }
+
+
+
+  .example {
+    background-color: #eee;
+    width: 450px;
+    height: 520px;
+    border: none;
+    overflow-y: scroll; 
+  }
+  
+  
+  .example::-webkit-scrollbar {
+      display: none;
+  }
+  
+  
+  .example {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }

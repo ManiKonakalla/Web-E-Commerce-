@@ -1,0 +1,19 @@
+
+.example {
+    background-color: #eee;
+    width: 250px;
+    height: 300px;
+    border: none;
+    overflow-y: scroll; 
+  }
+  
+  
+  .example::-webkit-scrollbar {
+      display: none;
+  }
+  
+  
+  .example {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }

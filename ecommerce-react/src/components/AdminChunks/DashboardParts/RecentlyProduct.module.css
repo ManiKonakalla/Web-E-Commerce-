@@ -1,0 +1,48 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto ;
+    
+    background-color: lavenderblush;
+    /* padding: 10px; */
+  }
+
+.gridcontainer2 {
+display: grid;
+grid-template-columns: auto auto;
+border: 1px solid rgba(0, 0, 0, 0.8);
+background-color: lavenderblush;
+/* padding: 10px; */
+}
+
+.griditem2 {
+    background-color:lavenderblush;
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 3px;    
+    text-align: left;
+ }
+    
+.griditem {
+background-color: lavenderblush;
+/* border: 1px solid rgba(0, 0, 0, 0.8); */
+padding: 8px;    
+text-align: left;
+}
+
+
+.example {
+background-color: lavenderblush;
+height: 250px;
+border: none;
+overflow-y: scroll; 
+}
+
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+
+.example {
+-ms-overflow-style: none;  
+scrollbar-width: none; 
+}

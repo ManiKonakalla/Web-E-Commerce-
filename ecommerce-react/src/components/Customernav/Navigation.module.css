@@ -1,0 +1,59 @@
+.topnav {
+  background-color: rgba(40, 30, 94, 0.932);
+  overflow: hidden;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  float: left;
+}
+
+.name {
+  padding: 16px 100px 5px 16px;
+  color:whitesmoke;
+  float :inherit;
+}
+.order {
+  padding: 14px 6px 10px 6px;
+  font-size: 20px;
+  color:whitesmoke;
+  float :left;
+}
+
+.profile {
+  color:whitesmoke;
+  background-color: transparent;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  font-size: 17px;
+  border: transparent;
+  overflow: hidden;
+  float: right;
+}
+
+.btn {
+  background: transparent;
+  border-style: none;
+  color: white;
+}
+
+.topnav button:hover {
+  background-color: transparent;
+  color: wheat;
+}
+
+.glogout {
+  background-color: transparent !important;
+  float: right;
+  border-style: none !important;
+  border: transparent !important;
+  color: white !important;
+  box-shadow: none !important;
+  /* padding: 8px !important; */
+}

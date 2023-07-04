@@ -1,0 +1,18 @@
+.example {
+background-color: white;
+height: 230px;
+width : 270px;
+border: none;
+overflow-y: scroll; 
+}
+
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+
+.example {
+-ms-overflow-style: none;  
+scrollbar-width: none; 
+}

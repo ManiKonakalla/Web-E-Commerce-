@@ -1,0 +1,40 @@
+.topnav {
+    background-color: rgba(40, 30, 94, 0.932);
+    overflow: hidden;
+  }
+  
+/* 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+  /* }
+  
+li {
+    float: left;
+  } */ 
+
+.name {
+    padding: 14px 500px 14px 16px;
+    font-size: 17px;
+    color:whitesmoke;
+    float :inherit;
+}
+.order {
+    padding: 14px 16px;
+    font-size: 17px;
+    color:whitesmoke;
+    float :inherit;
+}
+
+.profile {
+    color:whitesmoke;
+    background-color: transparent;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: transparent;
+}
